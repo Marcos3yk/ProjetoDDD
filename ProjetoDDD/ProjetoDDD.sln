@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{2AA5D1C7-E2DA-4731-A164-9C46EA5A3759}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{5CC3D000-DB64-40EC-A8A5-3692BC84141A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{2D70DDEA-4745-4D5C-84F0-9E04D6B0BD47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{D240A360-1552-4EAF-91D0-1780EB28AB56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{66F682FA-EC05-4EC9-AE69-BB40745A8805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{A0C79180-8514-4427-9860-28C04998B304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{BC166445-646F-4EC7-AC54-FD2CE5294673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.MVC", "ProjetoDDD.MVC\ProjetoDDD.MVC.csproj", "{F82B7E91-8952-4116-8181-53BE91F7C7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.Domain", "ProjetoDDD.Domain\ProjetoDDD.Domain.csproj", "{2E2C8B75-69BA-4E33-8E06-F048B1E1ED0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.Infra.Data", "ProjetoDDD.Infra\ProjetoDDD.Infra.Data.csproj", "{AE2EBF8C-1EB0-46B5-9D70-EC1D705256D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.Application", "ProjetoDDD.Application\ProjetoDDD.Application.csproj", "{FA7BF8BF-B466-4893-B97C-EB986D066422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F82B7E91-8952-4116-8181-53BE91F7C7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82B7E91-8952-4116-8181-53BE91F7C7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82B7E91-8952-4116-8181-53BE91F7C7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82B7E91-8952-4116-8181-53BE91F7C7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2C8B75-69BA-4E33-8E06-F048B1E1ED0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2C8B75-69BA-4E33-8E06-F048B1E1ED0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2C8B75-69BA-4E33-8E06-F048B1E1ED0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2C8B75-69BA-4E33-8E06-F048B1E1ED0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2EBF8C-1EB0-46B5-9D70-EC1D705256D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2EBF8C-1EB0-46B5-9D70-EC1D705256D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2EBF8C-1EB0-46B5-9D70-EC1D705256D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2EBF8C-1EB0-46B5-9D70-EC1D705256D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7BF8BF-B466-4893-B97C-EB986D066422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7BF8BF-B466-4893-B97C-EB986D066422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7BF8BF-B466-4893-B97C-EB986D066422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7BF8BF-B466-4893-B97C-EB986D066422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0C79180-8514-4427-9860-28C04998B304} = {66F682FA-EC05-4EC9-AE69-BB40745A8805}
+		{BC166445-646F-4EC7-AC54-FD2CE5294673} = {66F682FA-EC05-4EC9-AE69-BB40745A8805}
+		{F82B7E91-8952-4116-8181-53BE91F7C7DF} = {2AA5D1C7-E2DA-4731-A164-9C46EA5A3759}
+		{2E2C8B75-69BA-4E33-8E06-F048B1E1ED0E} = {D240A360-1552-4EAF-91D0-1780EB28AB56}
+		{AE2EBF8C-1EB0-46B5-9D70-EC1D705256D3} = {A0C79180-8514-4427-9860-28C04998B304}
+		{FA7BF8BF-B466-4893-B97C-EB986D066422} = {2D70DDEA-4745-4D5C-84F0-9E04D6B0BD47}
+	EndGlobalSection
+EndGlobal
