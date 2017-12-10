@@ -150,6 +150,7 @@
     <Compile Include="AutoMapper\AutoMapperConfig.cs" />
     <Compile Include="AutoMapper\DomainToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToDomainMappingProfile.cs" />
+    <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -197,6 +198,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Clientes\Index.cshtml" />
+    <Content Include="Views\Clientes\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -220,6 +223,10 @@
     <ProjectReference Include="..\ProjetoDDD.Domain\ProjetoDDD.Domain.csproj">
       <Project>{2e2c8b75-69ba-4e33-8e06-f048b1e1ed0e}</Project>
       <Name>ProjetoDDD.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjetoDDD.Infra\ProjetoDDD.Infra.Data.csproj">
+      <Project>{ae2ebf8c-1eb0-46b5-9d70-ec1d705256d3}</Project>
+      <Name>ProjetoDDD.Infra.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
