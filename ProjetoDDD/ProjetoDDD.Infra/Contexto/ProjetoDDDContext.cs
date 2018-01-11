@@ -14,8 +14,8 @@ namespace ProjetoDDD.Infra.Contexto
         
     {
         public ProjetoDDDContext()
-            //: base("ProjetoDDDContext") usar em casa
-            : base("ProjetoDDDContextWork")
+            : base("ProjetoDDDContext") //usar em casa
+            //: base("ProjetoDDDContextWork")
         {
 
         }
