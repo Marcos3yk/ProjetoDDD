@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using ProjetoDDD.Infra.Contexto;
 using ProjetoDDD.Domain.Interfaces;
+using ProjetoDDD.Domain.Interfaces.Reposiories;
 
 namespace ProjetoDDD.Infra.Repositories
 {

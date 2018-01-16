@@ -1,10 +1,9 @@
 ﻿
-
 using System.Collections.Generic;
 
-namespace ProjetoDDD.Domain.Interfaces
+namespace ProjetoDDD.Application.Interface
 {
-    public interface IRepositoryBase<TEntity> where TEntity : class
+    public interface IAppServiceBase<TEntity> where TEntity : class
     {
         void Add(TEntity obj);
         TEntity GetById(int id);
